@@ -5,6 +5,8 @@
 
 `System.IO.Path.GetRelativePath` is returning incorrect values when used within a case-sensitive directory.
 
+Bug Reported at https://github.com/dotnet/runtime/issues/100102
+
 ## Repro
 
 Run the provided unit test, or setup a case-sensitive directory structure as follows:
